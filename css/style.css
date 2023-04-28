@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif  !important;
+}
+
+html section, body section {
+  padding: 1rem;
+}
+
+html .section1, body .section1 {
+  padding: 0rem;
+  padding-bottom: 1rem;
+  background-color: #ECECEC;
+}
+
+html .section1 .navbar, body .section1 .navbar {
+  margin-bottom: 1rem;
+}
+
+html .section1 .logo-img, body .section1 .logo-img {
+  height: 70px;
+}
+
+html .section1 h1, body .section1 h1 {
+  color: 416969;
+  margin-bottom: 1rem;
+}
+
+html .section1 .booking-btn, body .section1 .booking-btn {
+  background-color: 416969;
+  color: white;
+}

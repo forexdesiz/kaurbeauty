@@ -1,0 +1,35 @@
+*{
+    
+    box-sizing: border-box;
+   
+    
+    
+}
+$pc:416969;
+html,body{
+    font-family: 'Roboto', sans-serif  !important;
+    section{
+        padding:1rem;
+    }
+    .section1{
+        padding: 0rem;
+        padding-bottom: 1rem;
+        background-color: #ECECEC;
+        .navbar{
+            margin-bottom: 1rem;
+        }
+        .logo-img{
+            height: 70px;
+        }
+        h1{
+            color:$pc;
+            margin-bottom: 1rem;
+        
+        }
+        .booking-btn{
+            background-color: $pc;
+            color:white;
+        }
+       
+    }
+}
