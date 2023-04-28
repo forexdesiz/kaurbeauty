@@ -4,6 +4,7 @@
 
 html, body {
   font-family: 'Roboto', sans-serif  !important;
+  overflow-x: hidden;
 }
 
 html section, body section {
@@ -12,8 +13,31 @@ html section, body section {
 
 html .section1, body .section1 {
   padding: 0rem;
+  position: relative;
   padding-bottom: 1rem;
-  background-color: #ECECEC;
+  background: #e2dacf;
+  background: linear-gradient(90deg, #e2dacf 0%, white 50%, #dfd7ca 100%);
+}
+
+html .section1:after, body .section1:after {
+  background-image: url("../media/Illustrations/Illustrations/01.png");
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+html .section1 .row-div, body .section1 .row-div {
+  background-image: url("../media/images/main-2.png");
+  background-repeat: no-repeat;
+  background-position-x: 24%;
+  padding: 10rem 0rem 13rem;
+  background-position-y: 25%;
+}
+
+html .section1 .row-div h1, body .section1 .row-div h1 {
+  color: 416969;
+  margin-bottom: 1rem;
+  font-size: 100px;
 }
 
 html .section1 .navbar, body .section1 .navbar {
@@ -24,12 +48,21 @@ html .section1 .logo-img, body .section1 .logo-img {
   height: 70px;
 }
 
-html .section1 h1, body .section1 h1 {
-  color: 416969;
-  margin-bottom: 1rem;
-}
-
 html .section1 .booking-btn, body .section1 .booking-btn {
   background-color: 416969;
   color: white;
+}
+
+html .section1 .heading, body .section1 .heading {
+  text-align: center;
+  padding: 0.4rem 10rem;
+  margin: auto;
+  color: white;
+  background-color: 416969;
+  width: fit-content;
+  border-radius: 2rem;
+}
+
+html .section1 .heading h1, body .section1 .heading h1 {
+  margin: 0px;
 }
