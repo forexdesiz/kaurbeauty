@@ -15,18 +15,49 @@ $pc:416969;
 html,body{
     font-family: 'Roboto', sans-serif  !important;
     overflow-x:hidden;
+   
     
     .section1{
+        position: relative;
+        .bg2{
+            position: absolute;
+            height:150px;
+            z-index: 1;
+            background: rgb(255,255,255);
+            background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(227,227,227,1) 100%);
+            width: 100%;
+           
+        }
         
         padding: 0rem;
         position: relative;
+        padding-bottom: 1rem;
+        background: rgb(226,218,207);
+        background: linear-gradient(90deg, rgba(226,218,207,1) 0%, rgba(255,255,255,1) 50%, rgba(223,215,202,1) 100%);
+        .navbar{
+            background-color: transparent;
+            color:black;
+            z-index: 2;
+            &.sticky {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                background-color: #416969;
+                color:white;
+                a{
+                    color:white !important
+                }
+              }
+        }
+        
         
         .row-div{
             background-image: url("../media/images/main-2.png");
-        background-repeat: no-repeat;
-        background-position-x: 24%;
-        padding: 10rem 0rem 13rem;
-        background-position-y: 25%;
+            background-repeat: no-repeat;
+            background-position-x: 24%;
+            padding: 10rem 0rem 13rem;
+            z-index: 2;
+            background-position-y: 25%;
 
         h1{
             color:$pc;
@@ -41,6 +72,7 @@ html,body{
         .ils1{
                     
                 position: absolute;
+                z-index: 2;
                 top: -6rem;
                 left: 0rem;
                 transform: translate(-50%, 50%);
@@ -52,6 +84,7 @@ html,body{
             
             position: absolute;
             top: -4rem;
+            z-index: 2;
             right: -9rem;
             transform: translate(-50%, 50%);
             width: 14rem;
@@ -59,10 +92,7 @@ html,body{
         
             }
         }
-        padding-bottom: 1rem;
-       // background-color: #ECECEC;
-        background: rgb(226,218,207);
-        background: linear-gradient(90deg, rgba(226,218,207,1) 0%, rgba(255,255,255,1) 50%, rgba(223,215,202,1) 100%);
+        
         .navbar{
             margin-bottom: 1rem;
         }
