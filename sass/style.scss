@@ -11,12 +11,56 @@
     font-weight: normal;
     font-style: normal;
 }
-$pc:416969;
+$pc:#416969;
+$sc:#694F40;
 html,body{
     font-family: 'Roboto', sans-serif  !important;
     overflow-x:hidden;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(227,227,227,1) 100%);
    
-    
+    #navbar1{
+        background-color: transparent;
+        color:black;
+        z-index: 2;
+        .logo-img{
+            height: 70px;
+        }
+       
+        &.sticky {
+            position: fixed;
+            top: 0;
+            margin-bottom: 100px;
+            width: 100%;
+            background-color: #416969;
+            color:white;
+            a{
+                color:white !important
+            }
+          }
+    }
+    .addpd{
+        margin-top: 300px;
+    }
+    section{
+        .sheading{
+            text-align: center;
+            padding: 0.4rem 10rem;
+            margin: auto;
+            margin-bottom: 1rem;
+            color: white;
+            background-color: $pc;
+            width: fit-content;
+            border-radius: 2rem;
+            h1{
+                margin: 0px;
+            }
+            &.brown{
+                background-color:$sc ;
+            }
+
+        }
+    }
     .section1{
         .bg2{
             position: absolute;
@@ -30,24 +74,9 @@ html,body{
         
         padding: 0rem;
         position: relative;
-        padding-bottom: 1rem;
         background: rgb(226,218,207);
         background: linear-gradient(90deg, rgba(226,218,207,1) 0%, rgba(255,255,255,1) 50%, rgba(223,215,202,1) 100%);
-        .navbar{
-            background-color: transparent;
-            color:black;
-            z-index: 2;
-            &.sticky {
-                position: fixed;
-                top: 0;
-                width: 100%;
-                background-color: #416969;
-                color:white;
-                a{
-                    color:white !important
-                }
-              }
-        }
+       
         
         
         .row-div{
@@ -90,38 +119,22 @@ html,body{
             opacity: 0.9;
         
             }
+            
         }
         
-        .navbar{
-            margin-bottom: 1rem;
-        }
-        .logo-img{
-            height: 70px;
-        }
-       
+        
         .booking-btn{
             background-color: $pc;
             color:white;
         }
-        .heading{
-            text-align: center;
-            padding: 0.4rem 10rem;
-            margin: auto;
-            color: white;
-            background-color: $pc;
-            width: fit-content;
-            border-radius: 2rem;
-            h1{
-                margin: 0px;
-            }
-
-        }
+        
        
     }
     .section2{
         background: rgb(226,218,207);
         position: relative;
         padding: 3rem;
+        padding-top:0rem;
         background: linear-gradient(90deg, rgba(226,218,207,1) 0%, rgba(255,255,255,1) 50%, rgba(223,215,202,1) 100%);
         .ils1{
                     
@@ -239,5 +252,57 @@ html,body{
                     }
             }
         }
+    }
+    .section4{
+        background: rgb(226,218,207);
+        position: relative;
+        padding: 3rem;
+        padding-top:0rem;
+        background: linear-gradient(90deg, rgba(226,218,207,1) 0%, rgba(255,255,255,1) 50%, rgba(223,215,202,1) 100%);
+        .ils2{
+            
+            position: absolute;
+            top: -2rem;
+            z-index: 2;
+            right: 0;
+            transform: translate(50%,-50% );
+            width: 14rem;
+            opacity: 0.9;
+        
+            }
+            .nav-pills{
+                .nav-item{
+                    margin:0 1rem;
+                    &:first-child{
+                        margin-left: 0rem;
+                    }
+                    .nav-link{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 60px;
+                        width: 60px;
+                        border:1px solid $sc;
+                        color:$sc;
+                        border-radius: 50%;
+                        i{
+                            font-size: 30px;
+                        }
+                        &.active{
+                            background-color: $sc important;
+                            color:white;
+                            background: $sc;
+                            transform: scale(1.06);
+                            
+                        }
+                                              
+                    
+                    } 
+                    p{
+                        margin: 1rem 0rem;
+                    } 
+                }
+            }
+           
     }
 }
