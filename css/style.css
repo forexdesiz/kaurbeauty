@@ -15,7 +15,6 @@ html, body {
 }
 
 html .section1, body .section1 {
-  position: relative;
   padding: 0rem;
   position: relative;
   padding-bottom: 1rem;
@@ -116,8 +115,29 @@ html .section1 .heading h1, body .section1 .heading h1 {
 
 html .section2, body .section2 {
   background: #e2dacf;
+  position: relative;
   padding: 3rem;
   background: linear-gradient(90deg, #e2dacf 0%, white 50%, #dfd7ca 100%);
+}
+
+html .section2 .ils1, body .section2 .ils1 {
+  position: absolute;
+  z-index: 2;
+  top: -6rem;
+  left: 0rem;
+  transform: translate(-50%, 50%);
+  width: 14rem;
+  opacity: 0.7;
+}
+
+html .section2 .ils2, body .section2 .ils2 {
+  position: absolute;
+  bottom: -2rem;
+  z-index: 2;
+  right: 0;
+  transform: translate(50%, -50%);
+  width: 14rem;
+  opacity: 0.9;
 }
 
 html .section2 .clientFlex, body .section2 .clientFlex {
@@ -129,4 +149,83 @@ html .section2 .clientFlex img, body .section2 .clientFlex img {
   height: 500px;
   border-radius: 50%;
   box-shadow: 3px 5px 11px -2px #817f7f;
+}
+
+html .section2 .heading, body .section2 .heading {
+  text-align: center;
+  padding: 0.4rem 10rem;
+  margin: auto;
+  color: white;
+  background-color: 416969;
+  width: fit-content;
+  border-radius: 2rem;
+}
+
+html .section2 .heading h1, body .section2 .heading h1 {
+  margin: 0px;
+}
+
+html .section3, body .section3 {
+  padding: 0rem;
+  position: relative;
+  padding-bottom: 1rem;
+  background: #e2dacf;
+  background: linear-gradient(90deg, #e2dacf 0%, white 50%, #dfd7ca 100%);
+}
+
+html .section3 .subsection, body .section3 .subsection {
+  padding-bottom: 3rem;
+  position: relative;
+}
+
+html .section3 .subsection .heading, body .section3 .subsection .heading {
+  margin-bottom: 3rem;
+  letter-spacing: 9px;
+  padding-top: 1rem;
+  z-index: 3;
+  color: 416969;
+  font-family: 'Amsterdam', sans-serif !important;
+}
+
+html .section3 .subsection img, body .section3 .subsection img {
+  width: 300px;
+  margin-bottom: 3rem;
+}
+
+html .section3 .subsection.one .ils1, body .section3 .subsection.one .ils1 {
+  position: absolute;
+  z-index: 2;
+  top: -2rem;
+  left: 0rem;
+  transform: translate(-50%, -50%);
+  width: 14rem;
+  opacity: 0.7;
+}
+
+html .section3 .subsection.second .ils1, body .section3 .subsection.second .ils1 {
+  position: absolute;
+  top: 2rem;
+  z-index: 2;
+  right: 0rem;
+  transform: translate(50%, -50%);
+  width: 14rem;
+  opacity: 0.9;
+}
+
+html .section3 .subsection.second h2, body .section3 .subsection.second h2 {
+  text-align: end;
+}
+
+html .section3 .subsection.second p, body .section3 .subsection.second p {
+  text-align: end;
+}
+
+html .section3 .subsection.three .ils1, body .section3 .subsection.three .ils1 {
+  position: absolute;
+  z-index: 2;
+  top: 3rem;
+  left: -1rem;
+  transform: translate(-50%, -50%);
+  width: 14rem;
+  opacity: 0.7;
 }

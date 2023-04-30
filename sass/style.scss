@@ -18,7 +18,6 @@ html,body{
    
     
     .section1{
-        position: relative;
         .bg2{
             position: absolute;
             height:150px;
@@ -121,8 +120,31 @@ html,body{
     }
     .section2{
         background: rgb(226,218,207);
+        position: relative;
         padding: 3rem;
         background: linear-gradient(90deg, rgba(226,218,207,1) 0%, rgba(255,255,255,1) 50%, rgba(223,215,202,1) 100%);
+        .ils1{
+                    
+                position: absolute;
+                z-index: 2;
+                top: -6rem;
+                left: 0rem;
+                transform: translate(-50%, 50%);
+                width: 14rem;
+                opacity: 0.7;
+            
+                }
+        .ils2{
+            
+            position: absolute;
+            bottom: -2rem;
+            z-index: 2;
+            right: 0;
+            transform: translate(50%,-50% );
+            width: 14rem;
+            opacity: 0.9;
+        
+            }
         .clientFlex{
             display: flex;
            
@@ -133,6 +155,89 @@ html,body{
                 box-shadow: 3px 5px 11px -2px #817f7f;
             }
         }
+        .heading{
+            text-align: center;
+            padding: 0.4rem 10rem;
+            margin: auto;
+            color: white;
+            background-color: $pc;
+            width: fit-content;
+            border-radius: 2rem;
+            h1{
+                margin: 0px;
+            }
 
+        }
+    }
+    .section3{
+        padding: 0rem;
+        position: relative;
+        padding-bottom: 1rem;
+        background: rgb(226,218,207);
+        background: linear-gradient(90deg, rgba(226,218,207,1) 0%, rgba(255,255,255,1) 50%, rgba(223,215,202,1) 100%);
+        .subsection{
+            padding-bottom: 3rem;
+            position: relative;
+            .heading{
+                margin-bottom: 3rem;
+                letter-spacing: 9px;
+                padding-top: 1rem;
+                z-index: 3;
+                color: $pc;
+                font-family: 'Amsterdam', sans-serif !important;
+            }
+            img{
+                width: 300px;
+                margin-bottom: 3rem;
+            }
+            &.one{
+                
+                .ils1{
+                    
+                        position: absolute;
+                        z-index: 2;
+                        top: -2rem;
+                        left: 0rem;
+                        transform: translate(-50%, -50%);
+                        width: 14rem;
+                        opacity: 0.7;
+                    
+                       
+                }
+            }
+            &.second{
+                .ils1{
+            
+                    position: absolute;
+                    top: 2rem;
+                    z-index: 2;
+                    right: 0rem;
+                    transform: translate(50%, -50%);
+                    width: 14rem;
+                    opacity: 0.9;
+                
+                    }
+                h2{
+                    text-align: end;
+                }
+                p{
+                    text-align: end;
+                }
+
+            }
+            &.three{
+                .ils1{
+                    
+                    position: absolute;
+                        z-index: 2;
+                        top: 3rem;
+                        left: -1rem;
+                        transform: translate(-50%, -50%);
+                        width: 14rem;
+                        opacity: 0.7;
+                
+                    }
+            }
+        }
     }
 }
