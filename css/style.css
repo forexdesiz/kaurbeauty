@@ -256,6 +256,10 @@ html .section4 .ils2, body .section4 .ils2 {
   opacity: 0.9;
 }
 
+html .section4 .nav-pills, body .section4 .nav-pills {
+  justify-content: space-around;
+}
+
 html .section4 .nav-pills .nav-item, body .section4 .nav-pills .nav-item {
   margin: 0 1rem;
 }
@@ -288,4 +292,17 @@ html .section4 .nav-pills .nav-item .nav-link.active, body .section4 .nav-pills 
 
 html .section4 .nav-pills .nav-item p, body .section4 .nav-pills .nav-item p {
   margin: 1rem 0rem;
+}
+
+html .section4 .tab-pane .card-wrapper, body .section4 .tab-pane .card-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow-x: auto;
+}
+
+html .section4 .tab-pane .card-wrapper .card, body .section4 .tab-pane .card-wrapper .card {
+  width: 300px;
+  min-width: 300px;
+  margin-right: 1rem;
 }

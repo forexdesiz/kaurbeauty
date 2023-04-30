@@ -271,6 +271,7 @@ html,body{
         
             }
             .nav-pills{
+                justify-content: space-around;
                 .nav-item{
                     margin:0 1rem;
                     &:first-child{
@@ -301,6 +302,20 @@ html,body{
                     p{
                         margin: 1rem 0rem;
                     } 
+                }
+            }
+            .tab-pane{
+                .card-wrapper{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    width: 100%;
+                    overflow-x: auto;
+                    .card{
+                        width: 300px;
+                        min-width: 300px;
+                        margin-right: 1rem;
+                        
+                    }
                 }
             }
            

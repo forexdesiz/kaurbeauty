@@ -1,0 +1,96 @@
+{
+    "waxing": [
+        {"Lip": 15},
+        {"Chin": 18},
+        {"Eyebrow Shape": 25},
+        {"Nose": 15},
+        {"Sides of Face": 25},
+        {"Neck": 18},
+        {"Full Face": 55},
+        {"Underarm": 25},
+        {"Full Leg": 55},
+        {"3/4 Leg": 45},
+        {"Half Leg": 40},
+        {"Bikini": 25},
+        {"G-String": 45},
+        {"Brazilian": 60},
+        {"Full Arm": 50},
+        {"3/4 Arm": 40},
+        {"Half Arm": 35}
+    ],
+    
+
+    
+    
+   
+    "tinting": 
+    [
+       {"Eyebrow tint": 25} ,
+        {"Eyebrow Wax & Tint": 40},
+        {"Eyelash Tint": 25},
+        {"Eyebrow Wax, Tint, Lash Tint": 60},
+        {"Lash lift": 85}
+    ],
+      
+   
+        "package": [
+          {
+            "Eyebrow & Lip": 35
+          },
+          {
+            "Lip & Chin": 28
+          },
+          {
+            "Eyebrow, Lip, Chin": 45
+          },
+          {
+            "Full Leg & Bikini": 70
+          },
+          {
+            "Full Leg & G-String": 90
+          },
+          {
+            "Full Leg & Brazilian": 105
+          },
+          {
+            "Half Leg & Bikini": 60
+          },
+          {
+            "Half Leg & G-String": 75
+          },
+          {
+            "Half Leg & Brazilian": 90
+          }
+        ],
+    
+        "facials": [
+            { "Pro Power Peel (40)": 95},
+            {"Reawakening Peel (60)": 125},
+            {"Lactic Peel (40)":80},
+            {"Mandelic Peel (40)":90},
+            {"Brightening Peel (60)": 115}
+        ],
+        "peels": [
+            {"Pro Power Peel": "$95"},
+           { "Reawakening Peel": "$125"},
+            {"Lactic Peel": "$80"},
+            {"Mandelic Peel": "$90"},
+            {"Brightening Peel": "$115"}
+        ],
+        
+            "henna_brows": [
+             {"Henna Stand Alone": "$55"},{"Henna with Ebw": "$75"},{"Henna with Eb & ELtint": "$90"} 
+              
+              
+            ]
+          
+          
+             
+              
+           
+          
+          
+      
+  }
+
+  
