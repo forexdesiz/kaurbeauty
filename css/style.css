@@ -11,6 +11,7 @@
 
 html, body {
   font-family: 'Roboto', sans-serif  !important;
+  font-family: 'Source Sans Pro', sans-serif !important;
   overflow-x: hidden;
   background: white;
   background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #e3e3e3 100%);
@@ -79,7 +80,7 @@ html .section1 .bg2, body .section1 .bg2 {
 }
 
 html .section1 .row-div, body .section1 .row-div {
-  background-image: url("../media/images/main-2.png");
+  background-image: url("../media/images/main-img.jpg");
   background-repeat: no-repeat;
   background-position-x: 24%;
   padding: 10rem 0rem 13rem;
@@ -90,9 +91,12 @@ html .section1 .row-div, body .section1 .row-div {
 html .section1 .row-div h1, body .section1 .row-div h1 {
   color: #416969;
   margin-bottom: 1rem;
-  font-family: 'Amsterdam', sans-serif !important;
-  line-height: 7rem;
+  font-family: 'Abril Fatface', cursive !important;
+  font-family: 'Great Vibes', cursive !important;
+  line-height: 6rem;
   letter-spacing: 9px;
+  font-weight: bold;
+  font-size: 4rem;
 }
 
 html .section1 .row-div .ils1, body .section1 .row-div .ils1 {
@@ -305,4 +309,26 @@ html .section4 .tab-pane .card-wrapper .card, body .section4 .tab-pane .card-wra
   width: 300px;
   min-width: 300px;
   margin-right: 1rem;
+}
+
+html footer, body footer {
+  width: 100%;
+  background-color: #8B6955;
+  color: white;
+}
+
+html footer .upper, body footer .upper {
+  padding: 3rem;
+}
+
+html footer .upper ul, body footer .upper ul {
+  list-style-type: none;
+}
+
+html footer .upper ul li, body footer .upper ul li {
+  padding-bottom: .5rem;
+}
+
+html footer .lower, body footer .lower {
+  background-color: #694F40;
 }
