@@ -329,6 +329,15 @@ html footer .upper ul li, body footer .upper ul li {
   padding-bottom: .5rem;
 }
 
+html footer .upper ul li:first-child, body footer .upper ul li:first-child {
+  font-weight: bold;
+  font-size: larger;
+  border-bottom: 1px solid white;
+  padding-bottom: .5rem;
+  margin-bottom: .5rem;
+  width: fit-content;
+}
+
 html footer .lower, body footer .lower {
   background-color: #694F40;
 }

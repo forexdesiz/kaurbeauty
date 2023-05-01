@@ -336,6 +336,14 @@ html,body{
                 list-style-type: none;
                 li{
                     padding-bottom: .5rem;
+                    &:first-child{
+                        font-weight: bold;
+                        font-size: larger;
+                        border-bottom: 1px solid white;
+                        padding-bottom: .5rem;
+                        margin-bottom: .5rem;
+                        width: fit-content;
+                    }
                 }
             }
         }
