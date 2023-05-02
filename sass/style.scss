@@ -46,18 +46,20 @@ html,body{
     section{
         .sheading{
             text-align: center;
-            padding: 0.4rem 10rem;
+            padding: 0.4rem 7rem;
+            font-weight: 600;
             margin: auto;
             margin-bottom: 1rem;
-            color: white;
-            background-color: $pc;
+            color: $pc;
+            border-bottom: 2px solid $pc;
             width: fit-content;
-            border-radius: 2rem;
+            text-transform: capitalize;
             h1{
                 margin: 0px;
             }
             &.brown{
-                background-color:$sc ;
+                color:$sc ;
+                border-color: $sc;
             }
 
         }
@@ -81,27 +83,41 @@ html,body{
         
         
         .row-div{
-            background-image: url("../media/images/main-img.jpg");
+          //  background-image: url("../media/images/main-img.jpg");
             background-repeat: no-repeat;
             background-position-x: 24%;
-            padding: 10rem 0rem 13rem;
+            padding: 7rem 0rem 13rem;
             z-index: 2;
             background-position-y: 25%;
+            z-index: 12;
+            .wrapper{
+                text-align: center;
+                h1{
+                    color:$pc;
+                   // font-size: 100px;
+                   font-family: 'Abril Fatface', cursive !important;
+                   font-family: 'Great Vibes', cursive !important;
+                //    line-height: 6rem;
+                //    letter-spacing: 9px;
+                   font-weight: bold;
+                   font-size: 60px;
+                   text-transform: capitalize;
+                
+                   
+                
+                }
+                p{
+                    font-size: 20px;
+                    padding:1rem 0rem 2rem 0rem;
+                }
+                
+                .booking-btn{
+                    background-color: $pc;
+                    color:white;
+                }
 
-        h1{
-            color:$pc;
-            margin-bottom: 1rem;
-           // font-size: 100px;
-           font-family: 'Abril Fatface', cursive !important;
-           font-family: 'Great Vibes', cursive !important;
-           line-height: 6rem;
-           letter-spacing: 9px;
-           font-weight: bold;
-           font-size: 4rem;
-       
-           
+            }
         
-        }
         .ils1{
                     
                 position: absolute;
@@ -121,17 +137,13 @@ html,body{
             right: -9rem;
             transform: translate(-50%, 50%);
             width: 14rem;
-            opacity: 0.9;
+            opacity: 0.4;
         
             }
             
         }
         
         
-        .booking-btn{
-            background-color: $pc;
-            color:white;
-        }
         
        
     }
@@ -139,8 +151,8 @@ html,body{
         background: rgb(226,218,207);
         position: relative;
         padding: 3rem;
-        padding-top:0rem;
-        background: linear-gradient(90deg, rgba(226,218,207,1) 0%, rgba(255,255,255,1) 50%, rgba(223,215,202,1) 100%);
+        padding-top:3rem;
+        // background: linear-gradient(90deg, rgba(226,218,207,1) 0%, rgba(255,255,255,1) 50%, rgba(223,215,202,1) 100%);
         .ils1{
                     
                 position: absolute;
@@ -165,6 +177,18 @@ html,body{
             }
         .clientFlex{
             display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            .name{
+                font-size: 36px;
+                margin-bottom: .5rem;
+                font-weight: 600;
+             }
+            p{
+             
+                font-size: 17px;
+                max-width: 400px;
+            }
            
             img{
                 width: 500px;
@@ -192,17 +216,17 @@ html,body{
         position: relative;
         padding-bottom: 1rem;
         background: rgb(226,218,207);
-        background: linear-gradient(90deg, rgba(226,218,207,1) 0%, rgba(255,255,255,1) 50%, rgba(223,215,202,1) 100%);
+        //background: linear-gradient(90deg, rgba(226,218,207,1) 0%, rgba(255,255,255,1) 50%, rgba(223,215,202,1) 100%);
         .subsection{
             padding-bottom: 3rem;
             position: relative;
             .heading{
                 margin-bottom: 3rem;
-                letter-spacing: 9px;
+                letter-spacing: 5px;
                 padding-top: 1rem;
+                font-size: 50px;
                 z-index: 3;
                 color: $pc;
-                font-family: 'Amsterdam', sans-serif !important;
             }
             img{
                 width: 300px;
@@ -263,7 +287,7 @@ html,body{
         position: relative;
         padding: 3rem;
         padding-top:0rem;
-        background: linear-gradient(90deg, rgba(226,218,207,1) 0%, rgba(255,255,255,1) 50%, rgba(223,215,202,1) 100%);
+       // background: linear-gradient(90deg, rgba(226,218,207,1) 0%, rgba(255,255,255,1) 50%, rgba(223,215,202,1) 100%);
         .ils2{
             
             position: absolute;
@@ -327,7 +351,7 @@ html,body{
     }
     footer{
         width: 100%;
-        background-color: #8B6955;
+        background-color: $sc;
         color:white;
         
         .upper{
