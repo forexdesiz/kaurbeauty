@@ -20,7 +20,7 @@ html, body {
 html #navbar1, body #navbar1 {
   background-color: transparent;
   color: black;
-  z-index: 2;
+  z-index: 100;
 }
 
 html #navbar1 .logo-img, body #navbar1 .logo-img {
@@ -49,7 +49,7 @@ html section .sheading, body section .sheading {
   padding: 0.4rem 7rem;
   font-weight: 600;
   margin: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: #416969;
   border-bottom: 2px solid #416969;
   width: fit-content;
@@ -58,6 +58,7 @@ html section .sheading, body section .sheading {
 
 html section .sheading h1, body section .sheading h1 {
   margin: 0px;
+  font-family: "Abril Fatface", cursive !important;
 }
 
 html section .sheading.brown, body section .sheading.brown {
@@ -147,7 +148,7 @@ html .section2 .ils1, body .section2 .ils1 {
   left: 0rem;
   transform: translate(-50%, 50%);
   width: 14rem;
-  opacity: 0.7;
+  opacity: 0.3;
 }
 
 html .section2 .ils2, body .section2 .ils2 {
@@ -157,7 +158,7 @@ html .section2 .ils2, body .section2 .ils2 {
   right: 0;
   transform: translate(50%, -50%);
   width: 14rem;
-  opacity: 0.9;
+  opacity: 0.4;
 }
 
 html .section2 .clientFlex, body .section2 .clientFlex {
@@ -215,6 +216,7 @@ html .section3 .subsection .heading, body .section3 .subsection .heading {
   letter-spacing: 5px;
   padding-top: 1rem;
   font-size: 50px;
+  font-family: "Abril Fatface", cursive !important;
   z-index: 3;
   color: #416969;
 }
@@ -231,7 +233,7 @@ html .section3 .subsection.one .ils1, body .section3 .subsection.one .ils1 {
   left: 0rem;
   transform: translate(-50%, -50%);
   width: 14rem;
-  opacity: 0.7;
+  opacity: 0.3;
 }
 
 html .section3 .subsection.second .ils1, body .section3 .subsection.second .ils1 {
@@ -241,15 +243,7 @@ html .section3 .subsection.second .ils1, body .section3 .subsection.second .ils1
   right: 0rem;
   transform: translate(50%, -50%);
   width: 14rem;
-  opacity: 0.9;
-}
-
-html .section3 .subsection.second h2, body .section3 .subsection.second h2 {
-  text-align: end;
-}
-
-html .section3 .subsection.second p, body .section3 .subsection.second p {
-  text-align: end;
+  opacity: 0.4;
 }
 
 html .section3 .subsection.three .ils1, body .section3 .subsection.three .ils1 {
@@ -259,7 +253,7 @@ html .section3 .subsection.three .ils1, body .section3 .subsection.three .ils1 {
   left: -1rem;
   transform: translate(-50%, -50%);
   width: 14rem;
-  opacity: 0.7;
+  opacity: 0.3;
 }
 
 html .section4, body .section4 {
@@ -276,7 +270,7 @@ html .section4 .ils2, body .section4 .ils2 {
   right: 0;
   transform: translate(50%, -50%);
   width: 14rem;
-  opacity: 0.9;
+  opacity: 0.4;
 }
 
 html .section4 .nav-pills, body .section4 .nav-pills {
@@ -345,6 +339,8 @@ html footer .upper ul, body footer .upper ul {
 }
 
 html footer .upper ul li, body footer .upper ul li {
+  display: flex;
+  align-items: center;
   padding-bottom: .5rem;
 }
 
@@ -353,10 +349,62 @@ html footer .upper ul li:first-child, body footer .upper ul li:first-child {
   font-size: larger;
   border-bottom: 1px solid white;
   padding-bottom: .5rem;
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
   width: fit-content;
+}
+
+html footer .upper ul li i, body footer .upper ul li i {
+  font-size: 22px;
+  margin-right: 1rem;
 }
 
 html footer .lower, body footer .lower {
   background-color: #694F40;
+}
+
+@media (max-width: 767.98px) {
+  body #navbar1 .logo-img {
+    height: 60px;
+  }
+  body section.section3 {
+    padding: 2rem;
+  }
+  body section.section3 .subsection {
+    padding-bottom: 2rem !important;
+  }
+  body section.section3 .subsection.second .row {
+    flex-direction: column-reverse;
+  }
+  body section.section3 .subsection p {
+    margin-bottom: 2rem;
+  }
+  body section.section3 .subsection .heading {
+    margin-bottom: 2rem  !important;
+  }
+  body section.section2 .clientFlex {
+    flex-direction: column-reverse;
+  }
+  body section.section2 .clientFlex img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 2rem;
+  }
+  body footer .upper {
+    text-align: center;
+    padding: 1rem 0rem;
+  }
+  body footer .upper ul li {
+    justify-content: center;
+  }
+  body footer .upper ul li:first-child {
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  body footer .upper ul li i {
+    font-size: 18px;
+    margin-right: 1rem;
+  }
+  body footer .logo-img {
+    margin: auto;
+  }
 }
