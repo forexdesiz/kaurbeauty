@@ -288,6 +288,9 @@ html,body{
         padding: 3rem;
         padding-top:0rem;
        // background: linear-gradient(90deg, rgba(226,218,207,1) 0%, rgba(255,255,255,1) 50%, rgba(223,215,202,1) 100%);
+       .sheading{
+        padding: 0.4rem 3rem;
+       }
         .ils2{
             
             position: absolute;
@@ -302,7 +305,7 @@ html,body{
             .nav-pills{
                 justify-content: space-around;
                 .nav-item{
-                    margin:0 1rem;
+                    margin:.5rem 1rem;
                     &:first-child{
                         margin-left: 0rem;
                     }
@@ -315,9 +318,7 @@ html,body{
                         border:1px solid $sc;
                         color:$sc;
                         border-radius: 50%;
-                        i{
-                            font-size: 30px;
-                        }
+                       
                         &.active{
                             background-color: $sc important;
                             color:white;
@@ -341,11 +342,22 @@ html,body{
                     border-radius: 20px;
                     color: black;
                     box-shadow: 2px 4px 10px -5px #41696963;
+                    background: linear-gradient(
+                                    to right bottom,
+                                    rgba(255, 255, 255, 0.7),
+                                    rgba(255, 255, 255, 0.3)
+                                );
+                                
                
                 .tab-pane{
                   
                     h2{
                         font-weight: 800;
+                        font-size: 40px;
+                        color:$sc;
+                        margin-bottom: .5rem;
+                        padding-bottom: .5rem;
+                        border-bottom: 2px solid;
                         text-transform: capitalize;
                     }
                     .item-div{
@@ -460,5 +472,123 @@ html,body{
             }
 
         }
+        .nav-wrapper{
+            ul{
+                flex-wrap: nowrap;
+                overflow-y: auto;
+                width: 100%;
+                justify-content: unset  !important;
+                text-transform: capitalize;
+            }
+        }
+    }
+ }
+ @media (max-width: 575.98px) { 
+    
+   body .section4 .nav-pills .nav-item p {
+        margin: .5rem 0rem;
+        text-align: center;
+    }
+    body section.section3 .subsection p {
+        font-size: 14px;
+    }
+    body section.section3 .subsection .heading {
+        margin-bottom: 1rem  !important;
+    }
+    html section .sheading, body section .sheading {
+        
+        padding: 0.4rem 2rem  !important;
+        margin-bottom: 1rem !important;
+      
+    }
+   .section3 .subsection .heading {
+        margin-bottom: 1rem  !important;
+        letter-spacing: 5px  !important;
+        padding-top: 1rem  !important;
+        font-size: 38px  !important;
+        
+    }
+    .section4{
+        padding:1rem !important;
+        .sheading{
+            margin-bottom: 1rem  !important;
+            padding: 0.4rem 2rem !important;
+        }
+       
+            .nav-pills .nav-item .nav-link {
+                height: 50px !important;
+                width: 50px !important;
+                i{
+                    font-size: 22px !important;
+                }
+            }
+           
+            .tab-content{
+                padding: 1rem 1.5rem !important;
+                .tab-pane{
+                    h2{
+                        font-size: 25px !important
+                    }
+                     .item-div {
+                        font-size: 14px !important;
+                        padding: 0.1rem .6rem !important;
+                    }
+                    
+                    
+                }
+            }
+
+        
+       
+       
+    }
+    .section2{
+        padding: 1rem  !important;
+      .clientFlex{
+         img {
+            width: 250px  !important;
+            height: 250px  !important;
+            margin-bottom: 1rem  !important;
+        }
+            .name {
+                font-size: 26px !important;
+            }
+            p{
+                font-size: 14px !important;
+            }      
+        } 
+    }
+    .section3{
+        padding: 1rem  !important;
+    }
+    .section1{
+        
+        .row-div {
+            .ils1 {
+                opacity: 0.4 !important;
+            }
+            .ils2 {
+                opacity: 0.2 !important;
+            }
+            .wrapper {
+                .booking-btn {
+                    background-color: #416969;
+                    color: white;
+                    font-size: medium;
+                }
+                h1 {
+                    font-size: 48px  !important;
+                }
+                p{
+                    font-size: 15px  !important;
+                }
+    
+    
+            }
+
+        }
+    }
+    footer{
+        font-size: 12px;
     }
  }

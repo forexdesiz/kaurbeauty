@@ -263,6 +263,10 @@ html .section4, body .section4 {
   padding-top: 0rem;
 }
 
+html .section4 .sheading, body .section4 .sheading {
+  padding: 0.4rem 3rem;
+}
+
 html .section4 .ils2, body .section4 .ils2 {
   position: absolute;
   top: -2rem;
@@ -278,7 +282,7 @@ html .section4 .nav-pills, body .section4 .nav-pills {
 }
 
 html .section4 .nav-pills .nav-item, body .section4 .nav-pills .nav-item {
-  margin: 0 1rem;
+  margin: .5rem 1rem;
 }
 
 html .section4 .nav-pills .nav-item:first-child, body .section4 .nav-pills .nav-item:first-child {
@@ -294,10 +298,6 @@ html .section4 .nav-pills .nav-item .nav-link, body .section4 .nav-pills .nav-it
   border: 1px solid #694F40;
   color: #694F40;
   border-radius: 50%;
-}
-
-html .section4 .nav-pills .nav-item .nav-link i, body .section4 .nav-pills .nav-item .nav-link i {
-  font-size: 30px;
 }
 
 html .section4 .nav-pills .nav-item .nav-link.active, body .section4 .nav-pills .nav-item .nav-link.active {
@@ -319,10 +319,16 @@ html .section4 .tab-content, body .section4 .tab-content {
   border-radius: 20px;
   color: black;
   box-shadow: 2px 4px 10px -5px #41696963;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
 }
 
 html .section4 .tab-content .tab-pane h2, body .section4 .tab-content .tab-pane h2 {
   font-weight: 800;
+  font-size: 40px;
+  color: #694F40;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  border-bottom: 2px solid;
   text-transform: capitalize;
 }
 
@@ -417,5 +423,96 @@ html footer .lower, body footer .lower {
   }
   body footer .logo-img {
     margin: auto;
+  }
+  body .nav-wrapper ul {
+    flex-wrap: nowrap;
+    overflow-y: auto;
+    width: 100%;
+    justify-content: unset  !important;
+    text-transform: capitalize;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body .section4 .nav-pills .nav-item p {
+    margin: .5rem 0rem;
+    text-align: center;
+  }
+  body section.section3 .subsection p {
+    font-size: 14px;
+  }
+  body section.section3 .subsection .heading {
+    margin-bottom: 1rem  !important;
+  }
+  html section .sheading, body section .sheading {
+    padding: 0.4rem 2rem  !important;
+    margin-bottom: 1rem !important;
+  }
+  .section3 .subsection .heading {
+    margin-bottom: 1rem  !important;
+    letter-spacing: 5px  !important;
+    padding-top: 1rem  !important;
+    font-size: 38px  !important;
+  }
+  .section4 {
+    padding: 1rem !important;
+  }
+  .section4 .sheading {
+    margin-bottom: 1rem  !important;
+    padding: 0.4rem 2rem !important;
+  }
+  .section4 .nav-pills .nav-item .nav-link {
+    height: 50px !important;
+    width: 50px !important;
+  }
+  .section4 .nav-pills .nav-item .nav-link i {
+    font-size: 22px !important;
+  }
+  .section4 .tab-content {
+    padding: 1rem 1.5rem !important;
+  }
+  .section4 .tab-content .tab-pane h2 {
+    font-size: 25px !important;
+  }
+  .section4 .tab-content .tab-pane .item-div {
+    font-size: 14px !important;
+    padding: 0.1rem .6rem !important;
+  }
+  .section2 {
+    padding: 1rem  !important;
+  }
+  .section2 .clientFlex img {
+    width: 250px  !important;
+    height: 250px  !important;
+    margin-bottom: 1rem  !important;
+  }
+  .section2 .clientFlex .name {
+    font-size: 26px !important;
+  }
+  .section2 .clientFlex p {
+    font-size: 14px !important;
+  }
+  .section3 {
+    padding: 1rem  !important;
+  }
+  .section1 .row-div .ils1 {
+    opacity: 0.4 !important;
+  }
+  .section1 .row-div .ils2 {
+    opacity: 0.2 !important;
+  }
+  .section1 .row-div .wrapper .booking-btn {
+    background-color: #416969;
+    color: white;
+    font-size: medium;
+  }
+  .section1 .row-div .wrapper h1 {
+    font-size: 48px  !important;
+  }
+  .section1 .row-div .wrapper p {
+    font-size: 15px  !important;
+  }
+  footer {
+    font-size: 12px;
   }
 }
