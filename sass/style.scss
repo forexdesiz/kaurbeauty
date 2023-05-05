@@ -333,20 +333,29 @@ html,body{
                     } 
                 }
             }
-            .tab-pane{
-                .card-wrapper{
-                    display: flex;
-                    flex-wrap: nowrap;
-                    width: 100%;
-                    overflow-x: auto;
-                    .card{
-                        width: 300px;
-                        min-width: 300px;
-                        margin-right: 1rem;
-                        
+            .tab-content{
+                background: #e2dacf;
+                background: linear-gradient(90deg, #e2dacf 0%, white 50%, #dfd7ca 100%);
+                .tab-pane{
+                  
+                    h2{
+                        font-weight: 800;
+                        text-transform: capitalize;
+                    }
+                    .item-div{
+                        display: flex;
+                        font-size: 18px;
+                        -webkit-border-vertical-spacing: 108rem;
+                        justify-content: space-between;
+                        padding: 0.3rem 1.1rem;
+                        font-weight: 600;
+                    
                     }
                 }
+
             }
+           
+           
            
     }
     footer{

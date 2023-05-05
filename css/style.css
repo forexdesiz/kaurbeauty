@@ -311,17 +311,23 @@ html .section4 .nav-pills .nav-item p, body .section4 .nav-pills .nav-item p {
   margin: 1rem 0rem;
 }
 
-html .section4 .tab-pane .card-wrapper, body .section4 .tab-pane .card-wrapper {
-  display: flex;
-  flex-wrap: nowrap;
-  width: 100%;
-  overflow-x: auto;
+html .section4 .tab-content, body .section4 .tab-content {
+  background: #e2dacf;
+  background: linear-gradient(90deg, #e2dacf 0%, white 50%, #dfd7ca 100%);
 }
 
-html .section4 .tab-pane .card-wrapper .card, body .section4 .tab-pane .card-wrapper .card {
-  width: 300px;
-  min-width: 300px;
-  margin-right: 1rem;
+html .section4 .tab-content .tab-pane h2, body .section4 .tab-content .tab-pane h2 {
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+html .section4 .tab-content .tab-pane .item-div, body .section4 .tab-content .tab-pane .item-div {
+  display: flex;
+  font-size: 18px;
+  -webkit-border-vertical-spacing: 108rem;
+  justify-content: space-between;
+  padding: 0.3rem 1.1rem;
+  font-weight: 600;
 }
 
 html footer, body footer {

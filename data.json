@@ -71,15 +71,15 @@
             {"Brightening Peel (60)": 115}
         ],
         "peels": [
-            {"Pro Power Peel": "$95"},
-           { "Reawakening Peel": "$125"},
-            {"Lactic Peel": "$80"},
-            {"Mandelic Peel": "$90"},
-            {"Brightening Peel": "$115"}
+            {"Pro Power Peel": "95"},
+           { "Reawakening Peel": "125"},
+            {"Lactic Peel": "80"},
+            {"Mandelic Peel": "90"},
+            {"Brightening Peel": "115"}
         ],
         
             "henna_brows": [
-             {"Henna Stand Alone": "$55"},{"Henna with Ebw": "$75"},{"Henna with Eb & ELtint": "$90"} 
+             {"Henna Stand Alone": "55"},{"Henna with Ebw": "75"},{"Henna with Eb & ELtint": "90"} 
               
               
             ]
