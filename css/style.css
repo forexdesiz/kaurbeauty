@@ -309,11 +309,16 @@ html .section4 .nav-pills .nav-item .nav-link.active, body .section4 .nav-pills 
 
 html .section4 .nav-pills .nav-item p, body .section4 .nav-pills .nav-item p {
   margin: 1rem 0rem;
+  text-align: center;
 }
 
 html .section4 .tab-content, body .section4 .tab-content {
-  background: #e2dacf;
-  background: linear-gradient(90deg, #e2dacf 0%, white 50%, #dfd7ca 100%);
+  background: #ffffff;
+  /* background: linear-gradient(90deg, #e2dacf 0%, white 50%, #dfd7ca 100%); */
+  padding: 2rem;
+  border-radius: 20px;
+  color: black;
+  box-shadow: 2px 4px 10px -5px #41696963;
 }
 
 html .section4 .tab-content .tab-pane h2, body .section4 .tab-content .tab-pane h2 {
